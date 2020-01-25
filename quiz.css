@@ -1,0 +1,100 @@
+body{
+    background-color: #18181E;
+    color: white;
+}
+
+.application-container {
+    width: 100%;
+    height: 100%;
+}
+
+.test-container {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heading-info {
+    display: flex;
+    padding: 20px 0;
+    font-family: 'Times New Roman', serif;
+}
+
+.test-status {
+    font-size: 24px;
+    text-align: left;
+}
+
+.correct-counter {
+    text-align: right;
+    font-size: 18px;
+}
+
+.heading-columns {
+    flex: 1;
+    align-self: center;
+}
+
+div.test {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    line-height: 42px;  
+    padding-left: 25px;
+}
+
+.test-question {
+    margin: 5px 0 10px 0;
+    font-size: 28px;
+}
+
+div.test label {
+    cursor: pointer;
+}
+
+div.test input[type="radio"] {
+    margin: 5px 8px;
+}
+
+input[type="submit"], .reset-quiz-btn {
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1.75px solid white;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    transition: 350ms;
+}
+
+input[type="submit"]:hover, .reset-quiz-btn:hover {
+    background: #DEC79B;
+    transition: 350ms;
+}
+
+.button-spacing {
+    margin-top: 25px;
+}
+
+.plus-one {
+    position: absolute;
+    animation: plusOne 600ms ease-out forwards;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+@keyframes plusOne {
+    0% { transform: translateY(0,0); opacity: 0; }
+    85% { transform: translate(25px, -25px); opacity: 1;}
+    100% { transform: translate(25px, -25px); opacity: 0; }
+}
+
+//Media Queries
+@media (max-width: 500px) {
+    .test-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .correct-counter {
+        display: none;
+    }
+}
