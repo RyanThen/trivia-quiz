@@ -16,13 +16,13 @@ var correctCounter;
 
 //Array of Questions - Choices - Answers
 var questions = [
-    ['The Chicago Field Museum owns the world\'s most complete T-rex skeleton. What is its name?', 'Stan', 'AMNH 5027', 'Sue', 'Jane', 'C'],
     ['Which popular junk food was invented in Chicago?', 'Twinkie', 'Cheese Puffs', 'Moon Pie', 'Pork Rinds', 'A'],
     ['What is the name of Chicago\'s tallest building?', 'Sears Tower', 'John Hancock', 'Trump Tower', 'Willis Tower', 'D'],
     ['What is the famous mile stetch down Lake Shore Drive called?', 'Marvelous Mile', 'Magnificent Mile', 'Miraculous Mile', 'Lake Shore Mile', 'B'],
     ['How many miles of public beach does Chicago lay claim to?', '2', '5', '8', '26', 'D'],
     ['What is Chicago\'s public rail transit called?', 'L', 'R', 'Subway', 'Underground Railway', 'A'],
     ['Chicago is home to one of the world\'s last free zoos. What is its name?', 'Brookfield Zoo', 'Bronx Zoo', 'Lincoln Park Zoo', 'Chicago Zoo', 'C'],
+    ['The Chicago Field Museum owns the world\'s most complete T-rex skeleton. What is its name?', 'Stan', 'AMNH 5027', 'Sue', 'Jane', 'C'],
     ['Allegedly the Chicago fire began when a cow knocked over a latern. What was the name of the owner of the cow?', 'Mr. Greene', 'Ms. O\'Leary', 'Ms. O\'Brien', 'Mr. Atcus', 'B'],
     ['How many parks does Chicago have?', '352', '452', '552', '652', 'C'],
     ['Which famous person was born in Chicago?', 'Walt Disney', 'Jim Brown', 'Alan Greenspan', 'Dick Van Dyke', 'A']

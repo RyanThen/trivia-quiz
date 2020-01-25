@@ -1,6 +1,6 @@
 body{
     background-color: #18181E;
-    color: white;
+    color: #f8f8ff;
 }
 
 .application-container {
@@ -58,16 +58,18 @@ div.test input[type="radio"] {
 input[type="submit"], .reset-quiz-btn {
     padding: 12px 20px;
     border-radius: 10px;
-    border: 1.75px solid white;
+    border: 1.75px solid #f8f8ff;
     font-size: 16px;
     cursor: pointer;
-    color: white;
+    color: #f8f8ff;
     background: transparent;
     transition: 350ms;
 }
 
 input[type="submit"]:hover, .reset-quiz-btn:hover {
     background: #DEC79B;
+    color: white;
+    border-color: white;
     transition: 350ms;
 }
 
