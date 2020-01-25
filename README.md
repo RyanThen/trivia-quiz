@@ -1,2 +1,2 @@
 # trivia-quiz
-Trivia quizzes built with pure JavaScript
+Trivia quiz built with pure JavaScript.
