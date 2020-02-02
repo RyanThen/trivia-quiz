@@ -96,4 +96,26 @@ function resetTest(){
     renderQuestion();
 }
 
+//Load After Everything Is Finished
 window.addEventListener('load', renderQuestion, false);
+
+
+//Media Queries  -- Responsive
+var testContainerElement = document.getElementById('test_container');
+var correctCounterElement = document.getElementById('correct_counter');
+var testElement = document.getElementById('test');
+var applicationContainerElement = document.getElementById('application_container');
+
+function myFunction(x) {
+    if (x.matches) { // If media query matches
+        testContainerElement.style.width = "90%";
+        correctCounterElement.style.display = "none";
+        testElement.style.fontSize = "21px";
+    } else {
+        applicationContainerElement.style.marginTop = "35px";
+    }
+}
+
+var x = window.matchMedia("(max-width: 500px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
