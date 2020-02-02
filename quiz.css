@@ -5,6 +5,8 @@ body{
 
 .application-container {
     width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
     height: 100%;
 }
 
@@ -44,7 +46,7 @@ div.test {
 
 .test-question {
     margin: 5px 0 10px 0;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 div.test label {
@@ -90,13 +92,28 @@ input[type="submit"]:hover, .reset-quiz-btn:hover {
     100% { transform: translate(25px, -25px); opacity: 0; }
 }
 
+
+/*
 //Media Queries
+
+@media (min-width:768px) {
+    .application-container {
+        margin-top: 30px;
+    }
+}
+
 @media (max-width: 500px) {
     .test-container {
         width: 95%;
-        margin: 0 auto;
     }
     .correct-counter {
         display: none;
     }
+    div.test {
+        font-size: 22px;
+    }
+    .test-question {
+        font-size: 24px;
+    }
 }
+*/
