@@ -61,7 +61,7 @@ function renderQuestion(){
     test.innerHTML += '<label><input type="radio" name="choices" value="B">'+chB+'</label><br>';
     test.innerHTML += '<label><input type="radio" name="choices" value="C">'+chC+'</label><br>';
     test.innerHTML += '<label><input type="radio" name="choices" value="D">'+chD+'</label><br>';
-    test.innerHTML += '<input onclick="checkAnswer()" class="button-spacing" type="submit">';
+    test.innerHTML += '<input onclick="checkAnswer()" class="button-spacing" type="submit" value="Submit">';
     
     //Plus One Animation
     if(lastAnswerCorrect) { 
