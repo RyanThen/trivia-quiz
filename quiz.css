@@ -1,4 +1,111 @@
-body{
+/* Quiz Landing Page Styles */
+.landing-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.landing-wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.main-headline-wrap {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+}
+
+.main-headline {
+    /*font-family: "Helvetica";*/
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-top: 75px;
+}
+
+.quiz-option-1 {
+    height: 100%;
+    background-color: antiquewhite;
+    display: inline-block;
+    flex: 1;
+}
+
+.quiz-option-2 {
+    height: 100%;
+    background-color: lightpink;
+    display: inline-block;
+    flex: 1;
+}
+
+.content-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+}
+
+.content-wrap-inner {
+    margin: auto;
+}
+
+.quiz-option-headline {
+    font-size: 28px;
+}
+
+.quiz-option-desc {
+    font-size: 18px;
+}
+
+.anchor {
+    position: absolute; 
+}
+
+.anchor-1 {
+    top: 0; bottom: 0; left: 0; right: 50%;
+}
+
+.anchor-2 {
+    top: 0; bottom: 0; left: 50%; right: 0;
+}
+
+/* Media Queries */
+@media (max-width: 575px) {
+    .landing-wrapper {
+        flex-direction: column;
+    }
+    .main-headline-wrap {
+        margin: auto;
+        height: 100vh;
+        display: flex;
+    }
+    .main-headline-wrap .main-headline {
+        padding-top: 0;
+        margin: auto;
+        font-size: 28px;
+    }
+    .quiz-option-headline {
+        font-size: 26px;
+    }
+    .quiz-option-desc {
+        font-size: 18px;
+    }
+    .anchor-1 {
+        top: 0; bottom: 50%; left: 0; right: 0;
+    }
+
+    .anchor-2 {
+        top: 50%; bottom: 0; left: 0; right: 0;
+    }
+}
+
+
+/*--------------------------------------------------------*/
+
+
+/* Quiz Application Styles */
+body.chicago-quiz-body {
     background-color: #18181E;
     color: #f8f8ff;
 }
@@ -91,29 +198,3 @@ input[type="submit"]:hover, .reset-quiz-btn:hover {
     85% { transform: translate(25px, -25px); opacity: 1;}
     100% { transform: translate(25px, -25px); opacity: 0; }
 }
-
-
-/*
-//Media Queries
-
-@media (min-width:768px) {
-    .application-container {
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 500px) {
-    .test-container {
-        width: 95%;
-    }
-    .correct-counter {
-        display: none;
-    }
-    div.test {
-        font-size: 22px;
-    }
-    .test-question {
-        font-size: 24px;
-    }
-}
-*/
