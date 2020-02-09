@@ -77,13 +77,14 @@
     }
     .main-headline-wrap {
         margin: auto;
-        height: 100vh;
+        height: 100%;
         display: flex;
     }
-    .main-headline-wrap .main-headline {
+    .main-headline {
         padding-top: 0;
         margin: auto;
         font-size: 28px;
+        display: none;
     }
     .quiz-option-headline {
         font-size: 26px;
@@ -97,6 +98,13 @@
 
     .anchor-2 {
         top: 50%; bottom: 0; left: 0; right: 0;
+    }
+    .quiz-option-1 {
+        height: 50%;
+    }
+
+    .quiz-option-2 {
+        height: 50%;
     }
 }
 
