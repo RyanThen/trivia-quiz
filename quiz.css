@@ -21,6 +21,7 @@
 .main-headline {
     /*font-family: "Helvetica";*/
     font-size: 36px;
+    color: #707070;
     text-transform: uppercase;
     padding-top: 75px;
 }
@@ -37,6 +38,7 @@
     background-color: lightpink;
     display: inline-block;
     flex: 1;
+    color: white;
 }
 
 .content-wrap {
