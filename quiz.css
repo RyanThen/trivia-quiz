@@ -120,6 +120,11 @@ body.chicago-quiz-body {
     color: #f8f8ff;
 }
 
+body.sports-quiz-body {
+    background-color: #18181E;
+    color: #f8f8ff;
+}
+
 .application-container {
     width: 100%;
     max-width: 1500px;
